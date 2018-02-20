@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist rsmike/yii2-panel "*"
+php composer.phar require --prefer-dist rsmike/yii2-noty "*"
 ```
 
 or add
 
 ```
-"rsmike/yii2-panel": "*"
+"rsmike/yii2-noty": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \rsmike\panel\AutoloadExample::widget(); ?>```
+\rsmike\noty\NotyAsset::register($this);
